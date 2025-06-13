@@ -1,0 +1,9 @@
+name: Firstwf
+on: workflow_dispatch
+jobs:
+  first-job :
+    runs-on : ubuntu-latest
+    steps :
+      -name: Asalamwalikum
+       run: "Hi Akbar"
+    
