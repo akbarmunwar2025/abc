@@ -4,8 +4,8 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: Asalamwalikum
-       run: echo "Hi Friend"
-      -name: printing Salam
-       run: echo "Khairiat"
+      - name: Asalamwalikum
+        run: echo "Hi Friend"
+      - name: printing Salam
+        run: echo "Khairiat"
     
